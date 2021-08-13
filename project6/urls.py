@@ -20,7 +20,7 @@ import app2
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('nani/',include('app1.urls')),
-    path('nani4/',include('app2.urls')),
+    path('application1/',include('app1.urls')),
+    path('application2/',include('app2.urls')),
     
 ]
